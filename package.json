@@ -1,0 +1,20 @@
+{
+  "name": "jest-testing-basics",
+  "version": "1.0.0",
+  "description": "JEST Testing basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-verbose": "jest --verbose",
+    "testwatch": "jest --watchAll "
+  },
+  "author": "Kari Närhi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
